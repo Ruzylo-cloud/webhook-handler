@@ -1,7 +1,7 @@
 # webhook-handler
 > Secure webhook receiver with HMAC-SHA256 verification and idempotency
 
-Secure webhook receiver with HMAC-SHA256 signature verification, idempotency via request ID caching, and timestamp tolerance to prevent replay attacks. ```typescript import { WebhookHandler } from 'webhook-handler';
+Secure webhook receiver with HMAC-SHA256 signature verification, idempotency via request ID caching, and timestamp tolerance to prevent replay attacks.
 
 ## API
 - `WebhookEvent`
