@@ -1,1 +1,23 @@
-{"name":"webhook-handler","version":"1.0.0","description":"Secure webhook receiver with HMAC-SHA256 verification and idempotency","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"keywords":["webhook","hmac","verification","idempotency","signature"],"author":"Ruzylo-cloud","license":"MIT","devDependencies":{"@types/node":"^20.19.43","typescript":"^5.0.0"}}
+{
+  "name": "@ferrow/webhook-handler",
+  "version": "1.0.0",
+  "description": "Secure webhook receiver with HMAC-SHA256 verification and idempotency",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "webhook",
+    "hmac",
+    "verification",
+    "idempotency",
+    "signature"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.0.0"
+  }
+}

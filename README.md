@@ -1,4 +1,8 @@
 # webhook-handler
+
+```sh
+npm install @ferrow/webhook-handler
+```
 ![CI](https://github.com/FerrowAI/webhook-handler/actions/workflows/ci.yml/badge.svg)
 
 Secure webhook receiver with HMAC-SHA256 signature verification, idempotency via request ID caching, and timestamp tolerance to prevent replay attacks.
